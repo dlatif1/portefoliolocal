@@ -1,0 +1,248 @@
+* {
+    margin: 0%;
+    text-decoration: none;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+}
+body {
+    background-color: azure;
+}
+header {
+    display: flex;
+    background-color: rgb(1, 1, 56);
+    color: azure;
+    justify-content: space-between;
+    gap: 20 px;
+    align-items: center;
+    padding: 25px;
+}
+#header {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+a {
+    color: azure;
+}
+nav {
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+    align-items: center;
+}
+#telecharger {
+    background-color:azure;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+}
+.telecharger {
+    color: rgb(1, 1, 56);
+    font-weight: bold;
+}
+section {
+    display: flex;
+    gap: 1px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+    margin-top: 1px;
+}
+.nom {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 50;
+    font-style: normal;
+
+}
+.description {
+    text-align: start;
+    justify-content: center;
+    padding: 20px;
+    flex: 1;
+   
+}
+.img {
+    justify-content: center;
+    padding: 20px;
+    flex: 1;
+}
+.image {
+    width: 400px;
+    height: 300px;
+
+    border-radius: 50px;
+    padding-left: 50px;
+    padding-right: 100px;
+    padding-bottom: 00px;
+    padding-top: 00px;
+}
+img {
+    border-radius: 15%;
+}
+.description {
+    padding-left: 50px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    margin: 5%;
+    
+    border-radius: 50px;
+}
+.savoir {
+    background-color:rgb(1, 1, 56);
+    font-weight: bold;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    color: azure;
+}
+.prestation {
+    background-color:black;
+    font-weight: bold;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    color: yellow;
+}
+footer {
+    width: 100%;
+    position: initial;
+    bottom: 0;
+    background: linear-gradient(to right, #060d31, #441501);
+    color: azure;
+    padding: 100px 0 30px;
+    border-top-left-radius: 150px;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 0;
+}
+.ligne {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.colonne {
+    flex-basis: 25%;
+    padding: 15px;
+}
+.colonne:nth-child(2), .colonne:nth-child(3) {
+    flex-basis: 10%;
+}
+.logo {
+    width: 80px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.colonne h3 {
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+.email-id {
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0 ;
+}
+.piedpage {
+    list-style: none;
+    margin-bottom: 12px;
+    padding-top: ;
+}
+.piedpage a {
+    text-decoration: none;
+    color: azure;
+}
+form {
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid#ccc;
+    margin-bottom: 50px;
+}
+form .far {
+   font-size: 18px;
+   margin-right: 10px;
+}
+form input {
+     width: 100%;
+    background: transparent;
+    color: #ccc;
+    border: 0;
+    outline: none;
+}
+form button {
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+form button .fa-solid {
+    font-size: 16px;
+    color: #ccc;
+}
+.social-icons .fa-brands {
+    width: 40px;
+    height: 40px;
+    border-radius: 20%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    background-color: azure;
+    color: #000;
+    margin-right: 15px;
+    cursor: pointer;
+}
+hr {
+    width: 90%;
+    border: 0%;
+    border-bottom: 1px solid azure;
+    margin: 20px;
+}
+.copyright {
+    text-align: center;
+}
+.underline {
+    width: 100%;
+    height: 3px;
+    background:rgb(100, 83, 83);
+    position: absolute;
+    top: 25px;
+    left: 0;
+    overflow: hidden;
+}
+.underline span {
+    width: 15px;
+    height: 100%;
+    background: azure;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    animation: moving 2s linear infinite;
+}
+@keyframes moving {
+    0% {
+        left: -10px;
+    }
+    100% {
+        left: 100%;
+    }
+}
+@media (max-width : 700px) {
+    footer {
+        bottom: unset;
+    }
+    .colonne {
+    flex-basis: 7%;
+    padding: 10px;
+}
+.colonne:nth-child(2), .colonne:nth-child(2) {
+    flex-basis: 15%;
+}
+}

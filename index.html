@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pied de page</title>
+    <title>portefoliolatif</title>
     <link rel="stylesheet" href="footer.css">
     <script src="https://fontawesome.com/search#icongrid" crossorigin="anonymous"></script>
 </head>
@@ -42,18 +42,82 @@
             </div>
         </section>
         <section class="section2">
-            <h3>Mes réalisations</h3>
-            <div class="img_realisation">
-                <img src="image/FlyersA4.jpg" alt="FlyersA4" weight="100" height="200">
-                <img src="image/Flyer.jpg" alt="" weight="100" height="200">
-                <img src="image/gommage_rose.jpg" alt="" weight="100" height="200">
-                <img src="image/gommage_rouge.jpg" alt="" weight="100" height="200">
-                <img src="image/hamdi_hair _oil.jpg" alt="" weight="100" height="200">
-                <img src="image/savon_anti-dartre_rose.jpg" alt="" weight="100" height="200">
-                <img src="image/savon_karité_cacao.jpg" alt=""weight="100" height="200">
+            <div class="carousel">
+                 <h3 class="realisation">Réalisations</h3>
+                <div class="group">
+                    <div class="card"><img src="image/FlyersA4.jpg" alt="FlyersA4" weight="100" height="200"></div>
+                    <div class="card"><img src="image/Flyer.jpg" alt="" weight="100" height="200"></div>
+                    <div class="card"><img src="image/gommage_rose.jpg" alt="" weight="100" height="200"></div>
+                    <div class="card"><img src="image/gommage_rouge.jpg" alt="" weight="100" height="200"></div>
+                    <div class="card"><img src="image/hamdi_hair _oil.jpg" alt="" weight="100" height="200"></div>
+                    <div class="card"><img src="image/savon_anti-dartre_rose.jpg" alt="" weight="100" height="200"></div>
+                    <div class="card"><img src="image/savon_karité_cacao.jpg" alt=""weight="100" height="200"></div>
+                </div>
             </div>
-            <div class="formulaire">
-
+            <!-- <div class="carousel">
+                <div class="group">
+                    <div class="card"><img src="image/FlyersA4.jpg" alt="FlyersA4" weight="100" height="200"></div>
+                    <div class="card"><img src="image/Flyer.jpg" alt="" weight="100" height="200"></div>
+                    <div class="card"><img src="image/gommage_rose.jpg" alt="" weight="100" height="200"></div>
+                    <div class="card"><img src="image/gommage_rouge.jpg" alt="" weight="100" height="200"></div>
+                    <div class="card"><img src="image/hamdi_hair _oil.jpg" alt="" weight="100" height="200"></div>
+                    <div class="card"><img src="image/savon_anti-dartre_rose.jpg" alt="" weight="100" height="200"></div>
+                    <div class="card"><img src="image/savon_karité_cacao.jpg" alt=""weight="100" height="200"></div>
+                </div>
+            </div> -->
+            <!-- Formulaire -->
+            <div class="container" id="formulaire">
+                <!-- <div class="title">formulaire d'inscription</div> -->
+                <form action="#">
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="detail">Prenoms</span>
+                            <input type="text" placeholder="Entrez votre Prenom" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="detail">Noms</span>
+                            <input type="text" placeholder="Entrez votre Nom" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="detail">Date de naissance</span>
+                            <input type="text" placeholder="Entrez votre date de naissance" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="detail">Contacts</span>
+                            <input type="text" placeholder="Entrez votre Numéro de téléphone" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="detail">email</span>
+                            <input type="text" placeholder="Entrez votre email" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="detail">Mot_de_passe</span>
+                            <input type="text" placeholder="Entrez votre Mot de passe" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="detail">comfirmez</span>
+                            <input type="text" placeholder="Confirmez votre mot de passe" required>
+                        </div>
+                    </div>
+                    <div class="genre-details">
+                        <input type="radio" name="genre" id="dot-1">
+                        <input type="radio" name="genre" id="dot-2">
+                        <span class="genre-title">Genre</span>
+                        <div class="categorie">
+                            <label for="dot-1">
+                                <span class="dot one"></span>
+                                <span class="genre">Homme</span>
+                            </label>
+                            <label for="dot-2">
+                                <span class="dot two"></span>
+                                <span class="genre">Femme</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <input type="submit" name="" value="Envoyer">
+                    </div>
+                </form>
             </div>
         </section>
     </main>
